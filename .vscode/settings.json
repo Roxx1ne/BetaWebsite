@@ -1,0 +1,9 @@
+{
+  "editor.wordWrap": "on",
+  "editor.fontSize": 18,
+  "editor.fontFamily": "JetBrains Mono",
+  "editor.defaultFormatter": "esbenp.prettier-vscode",
+  "[javascript]": {
+    "editor.defaultFormatter": "esbenp.prettier-vscode"
+  }
+}

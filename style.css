@@ -1,0 +1,57 @@
+img {
+  height: 100vh;
+  object-fit: cover;
+}
+
+body {
+  background-color: chocolate;
+}
+
+a:visited {
+  color: rgb(255, 255, 255);
+  background-color: transparent;
+  text-decoration: none;
+}
+
+a:hover {
+  color: yellow;
+  background-color: transparent;
+  text-decoration: underline;
+}
+
+a:active {
+  color: blue;
+  background-color: transparent;
+  text-decoration: underline;
+}
+
+.gif {
+  position: absolute;
+  top: 0;
+  right: 0;
+}
+
+#id {
+  margin-top: 90px;
+}
+
+.video {
+  display: inline-block;
+  position: absolute;
+  right: 0;
+}
+
+.bodygmbr {
+  background-image: url(img/wheat.jpg);
+  background-color: aqua;
+}
+
+.ulindx {
+  color: aliceblue;
+}
+
+.bodygmbr h1 {
+  text-shadow: 2px 2px 5px cyan;
+  font-variant: small-caps;
+  font-family: "sofia", sans-serif;
+}

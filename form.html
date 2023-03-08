@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title> Formulir </title>
+    <style>
+        body {
+            background-color: rgb(220, 223, 62);
+        }
+
+        button {
+            background-color: green;
+        }
+    </style>
+</head>
+
+<body>
+    <h3> MENU UTAMA </h3>
+    <a href="index.html">HOME</a>
+    <HR>
+    <form>
+        Nama Depan : <input type="text" required> <br>
+        Nama Belakang : <input type="text" required> <br>
+        Password : <input type="password" required> <br>
+        <h3> apakah anda sudah yakin ?</h3>
+        <input type="radio" name="pilihan" value="YA" required><label for="YA"> YA </label>
+        <input type="radio" name="pilihan" value="NO" required><label for="NO"> TIDAK </label>
+        <h3> musik favorit</h3>
+        <input type="checkbox" name="musik" value="POP"></label for="POP"> SALOME
+        <input type="checkbox" name="musik" value="INDIE"></label for="INDIE"> FANA MERAH JAMBU
+        <input type="checkbox" name="musik" value="INDIE"></label for="INDIE"> ZONA NYAMAN
+        <h3> pendidikan terakhir </h3>
+        <select name=" pendidikan terakhir">
+            <option value="S1"> Sarjana</option>
+            <option value="S2"> Magister</option>
+            <option value="S3"> Doktor</option>
+            <option value="pengangguran"> Pengangguran</option>
+            <option value="karyawan swasta"> Karyawan Swasta</option>
+
+        </select>
+        <h3> Upload berkas </h3>
+        <H3> File KTP</H3>
+        <input type="file" name="KTP" value="upload_foto"><label for="upload_foto"></label>
+        <BR>
+        <button value="submit"><span style="color:white">submit</span></button>
+        <textarea name="" id="" cols="50" rows="4"></textarea>
+    </form>
+
+</body>
+
+</html>
